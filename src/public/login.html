@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login | Techtails</title>
+        <meta encoding = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "icon" href = "images/ttlogo.png" type = "image/x-icon">
+    </head>
+    <body style="text-align: center;">
+      <div style="padding: 50px 0;">
+        <form action="login.php" method="post">
+            <label for="uname"><b>Username</b></label><br>
+            <input type="text" name="uname" id="uname" required autofocus/><br><br>
+            <label for="psw"><b>Password</b></label><br>
+            <input type="password" name="psw" id="psw" required autofocus><br><br>
+            <div >
+              <input class="login" type="submit" value="Login" /><br><br> 
+              <a href="https://www.techtails.in/forgotpsw.html"><input class="login" type="button" value="Forgot Password" /></a><br><br> 
+              <a href="https://www.techtails.in/signup.html"><input  class="login" type="button" value="Sign Up" /></a>
+            </div>
+        </form>
+      </div>
+      <style>
+        input
+        {
+          border-radius: 10px;
+        }
+        .login:hover
+        {
+          color: white;
+          background-color: black;
+        }
+        a
+        {
+          text-decoration: none;
+        }
+      </style>
+      <script>
+       
+      </script>
+     
+    </body>
+</html>
