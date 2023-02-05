@@ -6,4 +6,4 @@ const userSchema = new Schema({
 	permissionLevel: Number
 });
 
-const user model = mongoose.model('Users', userSchema);
+const Users = mongoose.model('Users', userSchema);
