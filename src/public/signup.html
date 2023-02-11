@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up | Techtails</title>
+    <meta encoding="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/ttlogo.png" type="image/x-icon">
+</head>
+
+<body style="text-align: center;">
+    <div class="col-4" style="padding: 50px 0;">
+        <form action="signup.php" method="post">
+            <input type="text" name="fname" placeholder="First Name" required autofocus><br /><br />
+            <input type="text" name="lname" placeholder="Last Name" required><br /><br />
+            <input type="text" name="uname" placeholder="Username" required><br /><br />
+            <input type="number" name="age" placeholder="Age" required><br /><br />
+            <input type="tel" name="contact" placeholder="Contact Number" required><br /><br />
+            <input type="email" name="email" placeholder="Email" required><br /><br />
+            <input type="password" name="psw" placeholder="Create Password" required><br /><br />
+            <input type="password" name="cpsw" placeholder="Confirm Password" required><br /><br />
+            <input class="signup" type="submit" value="Sign Up"><br /><br />
+            <input class="signup" type="button" value="Login"
+                onclick="window.location.href = 'https://www.techtails.in/login.html';">
+        </form>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        input {
+            border-radius: 10px;
+        }
+
+        .signup:hover {
+            color: white;
+            background-color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</body>
+
+</html>
